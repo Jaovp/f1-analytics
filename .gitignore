@@ -1,9 +1,17 @@
-# ─── Dados locais (nunca sobem) ───────────────────────────────────────────────
-data/raw/
-data/processed/
-exports/
-!data/raw/**/.gitkeep
+# ─── Dados locais ───────────────────────────────────────────────
+data/raw/jolpica/*
+!data/raw/jolpica/.gitkeep
+ 
+data/raw/fastf1_cache/*
+!data/raw/fastf1_cache/.gitkeep
+ 
+data/raw/scraped/*
+!data/raw/scraped/.gitkeep
+ 
+data/processed/*
 !data/processed/.gitkeep
+ 
+exports/*
 !exports/.gitkeep
 
 # ─── Ambiente e segredos ──────────────────────────────────────────────────────
